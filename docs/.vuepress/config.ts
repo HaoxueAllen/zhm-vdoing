@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Evan's blog",
+      title: "Allen's blog",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -92,6 +92,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '黄帝内经', link: '/pages/tcm/huangdineijing/index/' },
           { text: '伤寒论', link: '/pages/tcm/shanghanlun/index/' },
+          { text: '本草', link: '/pages/tcm/bencao/index/' },
+          { text: '针灸', link: '/pages/tcm/zhenjiu/index/' },
         ],
       },
       {
